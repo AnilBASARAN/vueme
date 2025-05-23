@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* if you need your own component-level styles */
+@layer components {
+  /* .btn { @apply px-4 py-2 rounded bg-blue-600 text-white; } */
+}
+
+/* and if you want to add custom utilities */
+@layer utilities {
+  /* .text-shadow { text-shadow: 2px 2px #000; } */
+}
