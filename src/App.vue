@@ -9,5 +9,6 @@ import Navbar from './components/Navbar.vue';
   <Navbar />
   <Hero title="Test Title" subtitle="Dont test me" />
   <HomeCards />
-  <JobListings />
+  <JobListings :limit="3" :showButton="true" />
 </template>
+
